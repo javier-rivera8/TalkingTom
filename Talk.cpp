@@ -4,11 +4,17 @@ using namespace std;
 
 int main(){
     string word;
-    cout<< "(TOM) - Listening... "<< endl;
-    cout<< "(YOU) - ";
-    cin>> word;
+    int n = 0;
 
-    cout<< "(TOM) - " + word <<endl;
+    while(n < 5){
+        cout<< "(TOM) - Listening... "<< endl;
+        cout<< "(YOU) - ";
+        cin>> word;
+
+        cout<< "(TOM) - " + word <<endl;
+        n += 1;
+    }
+    
 
     return 0;
 
